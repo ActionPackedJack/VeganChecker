@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F34A3B8B24BF7AE8001E0D95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A3B8A24BF7AE8001E0D95 /* AppDelegate.swift */; };
+		F34A3B8D24BF7AE8001E0D95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A3B8C24BF7AE8001E0D95 /* SceneDelegate.swift */; };
+		F34A3B9124BF7AEE001E0D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F34A3B9024BF7AEE001E0D95 /* Assets.xcassets */; };
+		F34A3B9424BF7AEE001E0D95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F34A3B9324BF7AEE001E0D95 /* Preview Assets.xcassets */; };
+		F34A3B9724BF7AEE001E0D95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F34A3B9524BF7AEE001E0D95 /* LaunchScreen.storyboard */; };
+		F34A3BA224BF7AEE001E0D95 /* Vegan_CheckerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A3BA124BF7AEE001E0D95 /* Vegan_CheckerTests.swift */; };
+		F34A3BAD24BF7AEE001E0D95 /* Vegan_CheckerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A3BAC24BF7AEE001E0D95 /* Vegan_CheckerUITests.swift */; };
+		F34A3BBB24BFE447001E0D95 /* ScanButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A3BBA24BFE447001E0D95 /* ScanButton.swift */; };
+		F39F75C224F2FDCA00A1AEFD /* ScanImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F75C124F2FDCA00A1AEFD /* ScanImageView.swift */; };
+		F39F75C424F2FDF800A1AEFD /* OcrTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F75C324F2FDF800A1AEFD /* OcrTextView.swift */; };
+		F39F75C624F2FE3700A1AEFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39F75C524F2FE3700A1AEFD /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F34A3B9E24BF7AEE001E0D95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F34A3B7F24BF7AE7001E0D95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F34A3B8624BF7AE7001E0D95;
+			remoteInfo = "Vegan Checker";
+		};
+		F34A3BA924BF7AEE001E0D95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F34A3B7F24BF7AE7001E0D95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F34A3B8624BF7AE7001E0D95;
+			remoteInfo = "Vegan Checker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F34A3B8724BF7AE8001E0D95 /* Vegan Checker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vegan Checker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34A3B8A24BF7AE8001E0D95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F34A3B8C24BF7AE8001E0D95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F34A3B9024BF7AEE001E0D95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F34A3B9324BF7AEE001E0D95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F34A3B9624BF7AEE001E0D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F34A3B9824BF7AEE001E0D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F34A3B9D24BF7AEE001E0D95 /* Vegan CheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vegan CheckerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34A3BA124BF7AEE001E0D95 /* Vegan_CheckerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vegan_CheckerTests.swift; sourceTree = "<group>"; };
+		F34A3BA324BF7AEE001E0D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F34A3BA824BF7AEE001E0D95 /* Vegan CheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vegan CheckerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34A3BAC24BF7AEE001E0D95 /* Vegan_CheckerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vegan_CheckerUITests.swift; sourceTree = "<group>"; };
+		F34A3BAE24BF7AEE001E0D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F34A3BBA24BFE447001E0D95 /* ScanButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanButton.swift; sourceTree = "<group>"; };
+		F39F75C124F2FDCA00A1AEFD /* ScanImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanImageView.swift; sourceTree = "<group>"; };
+		F39F75C324F2FDF800A1AEFD /* OcrTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcrTextView.swift; sourceTree = "<group>"; };
+		F39F75C524F2FE3700A1AEFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F34A3B8424BF7AE7001E0D95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34A3B9A24BF7AEE001E0D95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34A3BA524BF7AEE001E0D95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F34A3B7E24BF7AE7001E0D95 = {
+			isa = PBXGroup;
+			children = (
+				F34A3B8924BF7AE8001E0D95 /* Vegan Checker */,
+				F34A3BA024BF7AEE001E0D95 /* Vegan CheckerTests */,
+				F34A3BAB24BF7AEE001E0D95 /* Vegan CheckerUITests */,
+				F34A3B8824BF7AE8001E0D95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F34A3B8824BF7AE8001E0D95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F34A3B8724BF7AE8001E0D95 /* Vegan Checker.app */,
+				F34A3B9D24BF7AEE001E0D95 /* Vegan CheckerTests.xctest */,
+				F34A3BA824BF7AEE001E0D95 /* Vegan CheckerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F34A3B8924BF7AE8001E0D95 /* Vegan Checker */ = {
+			isa = PBXGroup;
+			children = (
+				F34A3B8A24BF7AE8001E0D95 /* AppDelegate.swift */,
+				F34A3B8C24BF7AE8001E0D95 /* SceneDelegate.swift */,
+				F34A3BBA24BFE447001E0D95 /* ScanButton.swift */,
+				F39F75C524F2FE3700A1AEFD /* ViewController.swift */,
+				F39F75C124F2FDCA00A1AEFD /* ScanImageView.swift */,
+				F39F75C324F2FDF800A1AEFD /* OcrTextView.swift */,
+				F34A3B9024BF7AEE001E0D95 /* Assets.xcassets */,
+				F34A3B9524BF7AEE001E0D95 /* LaunchScreen.storyboard */,
+				F34A3B9824BF7AEE001E0D95 /* Info.plist */,
+				F34A3B9224BF7AEE001E0D95 /* Preview Content */,
+			);
+			path = "Vegan Checker";
+			sourceTree = "<group>";
+		};
+		F34A3B9224BF7AEE001E0D95 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F34A3B9324BF7AEE001E0D95 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F34A3BA024BF7AEE001E0D95 /* Vegan CheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F34A3BA124BF7AEE001E0D95 /* Vegan_CheckerTests.swift */,
+				F34A3BA324BF7AEE001E0D95 /* Info.plist */,
+			);
+			path = "Vegan CheckerTests";
+			sourceTree = "<group>";
+		};
+		F34A3BAB24BF7AEE001E0D95 /* Vegan CheckerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F34A3BAC24BF7AEE001E0D95 /* Vegan_CheckerUITests.swift */,
+				F34A3BAE24BF7AEE001E0D95 /* Info.plist */,
+			);
+			path = "Vegan CheckerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F34A3B8624BF7AE7001E0D95 /* Vegan Checker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34A3BB124BF7AEE001E0D95 /* Build configuration list for PBXNativeTarget "Vegan Checker" */;
+			buildPhases = (
+				F34A3B8324BF7AE7001E0D95 /* Sources */,
+				F34A3B8424BF7AE7001E0D95 /* Frameworks */,
+				F34A3B8524BF7AE7001E0D95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vegan Checker";
+			productName = "Vegan Checker";
+			productReference = F34A3B8724BF7AE8001E0D95 /* Vegan Checker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F34A3B9C24BF7AEE001E0D95 /* Vegan CheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34A3BB424BF7AEE001E0D95 /* Build configuration list for PBXNativeTarget "Vegan CheckerTests" */;
+			buildPhases = (
+				F34A3B9924BF7AEE001E0D95 /* Sources */,
+				F34A3B9A24BF7AEE001E0D95 /* Frameworks */,
+				F34A3B9B24BF7AEE001E0D95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F34A3B9F24BF7AEE001E0D95 /* PBXTargetDependency */,
+			);
+			name = "Vegan CheckerTests";
+			productName = "Vegan CheckerTests";
+			productReference = F34A3B9D24BF7AEE001E0D95 /* Vegan CheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F34A3BA724BF7AEE001E0D95 /* Vegan CheckerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F34A3BB724BF7AEE001E0D95 /* Build configuration list for PBXNativeTarget "Vegan CheckerUITests" */;
+			buildPhases = (
+				F34A3BA424BF7AEE001E0D95 /* Sources */,
+				F34A3BA524BF7AEE001E0D95 /* Frameworks */,
+				F34A3BA624BF7AEE001E0D95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F34A3BAA24BF7AEE001E0D95 /* PBXTargetDependency */,
+			);
+			name = "Vegan CheckerUITests";
+			productName = "Vegan CheckerUITests";
+			productReference = F34A3BA824BF7AEE001E0D95 /* Vegan CheckerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F34A3B7F24BF7AE7001E0D95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Adam Rinsky";
+				TargetAttributes = {
+					F34A3B8624BF7AE7001E0D95 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					F34A3B9C24BF7AEE001E0D95 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F34A3B8624BF7AE7001E0D95;
+					};
+					F34A3BA724BF7AEE001E0D95 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F34A3B8624BF7AE7001E0D95;
+					};
+				};
+			};
+			buildConfigurationList = F34A3B8224BF7AE7001E0D95 /* Build configuration list for PBXProject "Vegan Checker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F34A3B7E24BF7AE7001E0D95;
+			productRefGroup = F34A3B8824BF7AE8001E0D95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F34A3B8624BF7AE7001E0D95 /* Vegan Checker */,
+				F34A3B9C24BF7AEE001E0D95 /* Vegan CheckerTests */,
+				F34A3BA724BF7AEE001E0D95 /* Vegan CheckerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F34A3B8524BF7AE7001E0D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34A3B9724BF7AEE001E0D95 /* LaunchScreen.storyboard in Resources */,
+				F34A3B9424BF7AEE001E0D95 /* Preview Assets.xcassets in Resources */,
+				F34A3B9124BF7AEE001E0D95 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34A3B9B24BF7AEE001E0D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34A3BA624BF7AEE001E0D95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F34A3B8324BF7AE7001E0D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34A3BBB24BFE447001E0D95 /* ScanButton.swift in Sources */,
+				F34A3B8B24BF7AE8001E0D95 /* AppDelegate.swift in Sources */,
+				F34A3B8D24BF7AE8001E0D95 /* SceneDelegate.swift in Sources */,
+				F39F75C224F2FDCA00A1AEFD /* ScanImageView.swift in Sources */,
+				F39F75C624F2FE3700A1AEFD /* ViewController.swift in Sources */,
+				F39F75C424F2FDF800A1AEFD /* OcrTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34A3B9924BF7AEE001E0D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34A3BA224BF7AEE001E0D95 /* Vegan_CheckerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F34A3BA424BF7AEE001E0D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34A3BAD24BF7AEE001E0D95 /* Vegan_CheckerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F34A3B9F24BF7AEE001E0D95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F34A3B8624BF7AE7001E0D95 /* Vegan Checker */;
+			targetProxy = F34A3B9E24BF7AEE001E0D95 /* PBXContainerItemProxy */;
+		};
+		F34A3BAA24BF7AEE001E0D95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F34A3B8624BF7AE7001E0D95 /* Vegan Checker */;
+			targetProxy = F34A3BA924BF7AEE001E0D95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F34A3B9524BF7AEE001E0D95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F34A3B9624BF7AEE001E0D95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F34A3BAF24BF7AEE001E0D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F34A3BB024BF7AEE001E0D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F34A3BB224BF7AEE001E0D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Vegan Checker/Preview Content\"";
+				DEVELOPMENT_TEAM = K663DXU8Y4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Vegan Checker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AR.Vegan-Checker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F34A3BB324BF7AEE001E0D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Vegan Checker/Preview Content\"";
+				DEVELOPMENT_TEAM = K663DXU8Y4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Vegan Checker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AR.Vegan-Checker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F34A3BB524BF7AEE001E0D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Vegan CheckerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AR.Vegan-CheckerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vegan Checker.app/Vegan Checker";
+			};
+			name = Debug;
+		};
+		F34A3BB624BF7AEE001E0D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Vegan CheckerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AR.Vegan-CheckerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vegan Checker.app/Vegan Checker";
+			};
+			name = Release;
+		};
+		F34A3BB824BF7AEE001E0D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Vegan CheckerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AR.Vegan-CheckerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vegan Checker";
+			};
+			name = Debug;
+		};
+		F34A3BB924BF7AEE001E0D95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Vegan CheckerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AR.Vegan-CheckerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vegan Checker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F34A3B8224BF7AE7001E0D95 /* Build configuration list for PBXProject "Vegan Checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34A3BAF24BF7AEE001E0D95 /* Debug */,
+				F34A3BB024BF7AEE001E0D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F34A3BB124BF7AEE001E0D95 /* Build configuration list for PBXNativeTarget "Vegan Checker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34A3BB224BF7AEE001E0D95 /* Debug */,
+				F34A3BB324BF7AEE001E0D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F34A3BB424BF7AEE001E0D95 /* Build configuration list for PBXNativeTarget "Vegan CheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34A3BB524BF7AEE001E0D95 /* Debug */,
+				F34A3BB624BF7AEE001E0D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F34A3BB724BF7AEE001E0D95 /* Build configuration list for PBXNativeTarget "Vegan CheckerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34A3BB824BF7AEE001E0D95 /* Debug */,
+				F34A3BB924BF7AEE001E0D95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F34A3B7F24BF7AE7001E0D95 /* Project object */;
+}
